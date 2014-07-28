@@ -5,7 +5,7 @@ CodeIgniter用户指南v2.2.0
 
 原始帮助文档来自[CodeIgniter 中国](http://codeigniter.org.cn/user_guide/index.html "CodeIgniter 中g国 ")，内容版权归原始持有者所有，如有侵权，请来发email告知。
 
-感想CodeIgniter中国，感想EllisLab，感想所有中文文档翻译志愿者。
+感谢CodeIgniter中国，感谢EllisLab，感谢所有中文文档翻译志愿者。
 
 #脚本说明
 
