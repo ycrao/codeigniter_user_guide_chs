@@ -1,11 +1,11 @@
-CodeIgniterÓÃ»§Ö¸ÄÏv2.2.0
+CodeIgniterç”¨æˆ·æŒ‡å—v2.2.0
 ----
 
-±àÕßÖ»ÊÇÍøÂç°áÔË¹¤£¬°ïÖúÖÆ×÷³ÉÀëÏßCHMÎÄµµ£¬ÒÔ±ãPHP¿ª·¢ÕßÏßÏÂ²Î¿¼Ê¹ÓÃ¡£
+ç¼–è€…åªæ˜¯ç½‘ç»œæ¬è¿å·¥ï¼Œå¸®åŠ©åˆ¶ä½œæˆç¦»çº¿CHMæ–‡æ¡£ï¼Œä»¥ä¾¿PHPå¼€å‘è€…çº¿ä¸‹å‚è€ƒä½¿ç”¨ã€‚
 
-Ô­Ê¼°ïÖúÎÄµµÀ´[CodeIgniter ÖÐ¹ú](http://codeigniter.org.cn/user_guide/index.html "CodeIgniter ÖÐg¹ú ")£¬ÄÚÈÝ°æÈ¨¹éÔ­Ê¼³ÖÓÐÕßËùÓÐ£¬ÈçÓÐÇÖÈ¨£¬ÇëÀ´·¢email¸æÖª¡£
+åŽŸå§‹å¸®åŠ©æ–‡æ¡£æ¥è‡ª[CodeIgniter ä¸­å›½](http://codeigniter.org.cn/user_guide/index.html "CodeIgniter ä¸­gå›½ ")ï¼Œå†…å®¹ç‰ˆæƒå½’åŽŸå§‹æŒæœ‰è€…æ‰€æœ‰ï¼Œå¦‚æœ‰ä¾µæƒï¼Œè¯·æ¥å‘emailå‘ŠçŸ¥ã€‚
 
-¸ÐÏëCodeIgniterÖÐ¹ú£¬¸ÐÏëEllisLab£¬¸ÐÏëËùÓÐÖÐÎÄÎÄµµ·­ÒëÖ¾Ô¸Õß¡£
+æ„Ÿæƒ³CodeIgniterä¸­å›½ï¼Œæ„Ÿæƒ³EllisLabï¼Œæ„Ÿæƒ³æ‰€æœ‰ä¸­æ–‡æ–‡æ¡£ç¿»è¯‘å¿—æ„¿è€…ã€‚
 
 
 
