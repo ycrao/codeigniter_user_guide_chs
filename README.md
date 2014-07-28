@@ -7,5 +7,23 @@ CodeIgniter用户指南v2.2.0
 
 感想CodeIgniter中国，感想EllisLab，感想所有中文文档翻译志愿者。
 
+#脚本说明
+
+①使用Teleport离线下载CodeIgniter 中国帮助文档；
+
+②replace_htmls.exe,replace_subdir_htmls.exe是用Autohotkey写的，用来清理被Teleport离线下来的html文档(删除其中垃圾js代码段)。
+
+    注意，帮助文档子目录下的html文档（如database,general,helper目录等），    
+    请往replace_subdir_htmls.exe拖动；
+    帮助文档根目录下的html文档（如index.html,changelog.html,toc.html等），
+    请往replace_htmls.exe拖动。
+
+③CHM文档是使用微软的MS HTML Help Workshop工具来生成的，相关dll和exe位于bin目录下。ci_chm.exe是用于生成CHM帮助文档的脚本，同样也是使用Autohotkey编写。
 
 
+#联系编者
+
+email: 
+
+    ８３７４５４８７６＃ｑｑ＆ｃｏｍ 
+请将**#**换成**@**，**&**换成**.**。
