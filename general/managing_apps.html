@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="utf-8" lang="utf-8">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+<title>管理你的应用程序 - CodeIgniter 中文手册|用户手册|用户指南|Wiki文档</title>
+<link rel="shortcut icon" href="http://codeigniter.org.cn/user_guide/../images/design/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" media="all" href="../userguide.css" />
+<link rel="search" href="http://codeigniter.org.cn/user_guide/../CodeIgniterSearch.xml" type="application/opensearchdescription+xml" title="CodeIgniter 搜索"/>
+<link rel="canonical" href="http://codeigniter.org.cn/user_guide/general/managing_apps.html" />
+<script type="text/javascript" src="../nav/mootools.js-ver=20130324.js"></script>
+<script type="text/javascript" src="../nav/mootools-more.js-ver=20130324.js"></script>
+<script type="text/javascript" src="../nav/nav.js-ver=20130324.js"></script>
+<script type="text/javascript" src="../nav/user_guide_menu.js-ver=20130324.js"></script>
+<meta name="robots" content="all" />
+<meta name="author" content="ExpressionEngine Dev Team" />
+<meta name="description" content="CodeIgniter 中文手册, CodeIgniter 用户指南, CodeIgniter User Guide, Wiki 文档" />
+</head>
+<body>
+<!-- START NAVIGATION -->
+<div id="nav">
+  <div id="nav_inner">
+    <script type="text/javascript">create_menu('../');</script>
+  </div>
+</div>
+<script type="text/javascript">_setNavigation();</script>
+<div id="nav2"><a name="top"></a><a href="javascript:void(0);" onclick="myHeight.toggle();"><img src="../images/nav_toggle_darker.jpg" width="154" height="43" border="0" title="切换目录" alt="切换目录" /></a></div>
+<div id="masthead" class="clearfix">
+    <div class="topbar-hd"><h1>CodeIgniter 用户指南 版本 2.2.0</h1></div>
+<div class="topbar-tip">编辑文档、查看近期更改请 <a href="#">登录</a> 或 <a href="#">注册</a> 　<a href="#">找回密码</a></div>      <div id="breadcrumb_right"><a href="../toc.html">目录页</a></div>
+</div>
+<!-- END NAVIGATION -->
+<!-- START BREADCRUMB -->
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+  <tr>
+    <td id="breadcrumb">
+        <a href="#" target="_blank">CodeIgniter 中国首页</a>&nbsp;&#8250;&nbsp;
+<a href="../index.html">用户指南首页</a>&nbsp;&#8250;&nbsp;管理你的应用程序    </td>
+    <td id="searchbox">
+        <form method="get" action="http://www.google.com.hk/search" target="google_window">
+        <input type="hidden" name="client" value="pub-0176846097796333"></input>
+        <input type="hidden" name="forid" value="1"></input>
+        <input type="hidden" name="ie" value="UTF-8"></input>
+        <input type="hidden" name="oe" value="UTF-8"></input>
+        <input type="hidden" name="as_sitesearch" id="as_sitesearch" value="codeigniter.org.cn/user_guide/" />
+        搜索用户指南&nbsp;
+        <input type="text" class="input" style="width:200px;" name="q" id="q" size="31" maxlength="255" value="" />
+        &nbsp;
+        <input type="submit" class="submit" name="sa" value="Go" />
+      </form>
+    </td>
+  </tr>
+</table>
+<!-- END BREADCRUMB -->
+<div style="clear:both;text-align:right;padding: 6px 40px 0 0;">
+<a href="#" target="_blank">查看原文</a>
+</div>
+<!--<br clear="all" />--><!-- START CONTENT -->
+<div id="content">
+<h1>管理你的应用程序</h1>
+
+<p>默认情况下，你会将应用程序放入<dfn>application/</dfn>中，并且可能用 CodeIgniter 只管理这一个应用程序。当然，多个应用程序共享一个 CodeIgniter， 甚至对 <dfn>application</dfn> 文件夹进行重命名或更换路径也是可行的。</p>
+
+<h2>对应用程序文件夹重命名</h2>
+
+<p>如果你要对 <dfn>application</dfn> 进行重命名， 你需要打开 <kbd>index.php</kbd> 文件，对变量 <samp>$application_folder</samp> 进行更改:</p>
+
+<code>$application_folder = "application";</code>
+
+<h2>更改你的应用程序的文件夹路径</h2>
+
+<p>你可以将 <dfn>application</dfn>文件夹从<kbd>system</kbd> 文件夹中挪放到服务器的其他的位置。但是你还要更改 <kbd>index.php</kbd> 文件里将<samp>$application_folder</samp>变量设置为<em>服务器的全路径</em>。</p>
+
+
+<code>$application_folder = "/Path/to/your/application";</code>
+
+
+<h2>在一个 CodeIgniter 下运行多个应用程序</h2>
+
+<p>如果你想要多个应用程序共享同一个 CodeIgniter， 你要将 <kbd>application</kbd> 下所有的文件夹放在不同的应用程序的文件夹内。</p>
+
+<p>例如，你要建立两个应用程序 "foo" 和 "bar",你的应用程序文件夹的结构可能会像下面的这样:</p>
+
+<code>applications/<var>foo</var>/<br />
+applications/<var>foo</var>/config/<br />
+applications/<var>foo</var>/controllers/<br />
+applications/<var>foo</var>/errors/<br />
+
+applications/<var>foo</var>/libraries/<br />
+applications/<var>foo</var>/models/<br />
+applications/<var>foo</var>/views/<br />
+applications/<samp>bar</samp>/<br />
+applications/<samp>bar</samp>/config/<br />
+
+applications/<samp>bar</samp>/controllers/<br />
+applications/<samp>bar</samp>/errors/<br />
+applications/<samp>bar</samp>/libraries/<br />
+applications/<samp>bar</samp>/models/<br />
+applications/<samp>bar</samp>/views/</code>
+
+
+<p>要选择使用某个应用程序，你需要打开主 <kbd>index.php</kbd> 文件，并且设置 <dfn>$application_folder</dfn> 变量为目标路径。例如，通过如下设置，就可以选择使用 "foo" 应用程序:</p>
+
+<code>$application_folder = "applications/foo";</code>
+
+<p class="important"><strong>注意:</strong>&nbsp; 每一个应用程序都会需要它自己的<dfn>index.php</dfn>文件来调用他的目标程序。你可以随意对 index.php 文件进行命名。</p><p>&nbsp;</p>
+<div id="Contributors">
+翻译贡献者:
+aykirk, Hex, thankwsx, zhupeng</div>
+<div id="DocDate">
+最后修改: 2011-01-31 18:04:05</div>
+</div>
+<!-- END CONTENT -->
+<div id="footer">
+  <p>
+上一个主题:&nbsp;&nbsp;<a href="profiling.html">评测你的应用程序</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="#top">页首</a>
+&nbsp;&middot;&nbsp;&nbsp;<a href="../index.html">用户指南首页</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;下一个主题:&nbsp;&nbsp;<a href="alternative_php.html">PHP 替代语法</a>  </p>
+  <p><a href="#">CodeIgniter</a> &nbsp;&middot;&nbsp; 版权所有 &#169; 2006-2013 &nbsp;&middot;&nbsp; <a href="#">Ellislab, Inc.</a></p>
+  <p>中文化: <a href="#">CodeIgniter 中国</a> &nbsp;&middot;&nbsp; 制作: Hex &nbsp;&middot;&nbsp; 版本: 1.30 &nbsp;&middot;&nbsp; 鸣谢: 子非鱼</p>
+</div>
+</body>
+</html>

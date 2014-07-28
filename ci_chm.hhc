@@ -1,0 +1,599 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<object type="text/site properties">
+<param name="ImageType" value="folder">
+<param name="Window Styles" value="0x800025">
+</object>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CodeIgniter用户指南(版本 2.2.0)">
+			<param name="Local" value="index.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="基本信息">
+				<param name="Local" value="toc.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="服务器要求">
+					<param name="Local" value="general/requirements.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="许可协议">
+					<param name="Local" value="license.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="变更记录">
+					<param name="Local" value="changelog.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="关于 CodeIgniter">
+					<param name="Local" value="general/credits.html">
+					</OBJECT>
+			</UL>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="安装">
+				<param name="Local" value="toc.html">
+				</OBJECT>
+
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="下载 CodeIgniter">
+					<param name="Local" value="installation/downloads.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="安装指导">
+					<param name="Local" value="installation/index.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="从老版本升级">
+					<param name="Local" value="installation/upgrading.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="疑难解答">
+					<param name="Local" value="installation/troubleshooting.html">
+					</OBJECT>
+			</UL>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="介绍">
+				<param name="Local" value="toc.html">
+				</OBJECT>
+
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="开始">
+					<param name="Local" value="overview/getting_started.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CodeIgniter 是什么？">
+					<param name="Local" value="overview/at_a_glance.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CodeIgniter 速记表">
+					<param name="Local" value="overview/cheatsheets.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="支持特性">
+					<param name="Local" value="overview/features.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="应用程序流程图">
+					<param name="Local" value="overview/appflow.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="模型-视图-控制器">
+					<param name="Local" value="overview/mvc.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="架构目标">
+					<param name="Local" value="overview/goals.html">
+					</OBJECT>
+			</UL>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="教程">
+				<param name="Local" value="toc.html">
+				</OBJECT>
+
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="内容提要">
+					<param name="Local" value="tutorial/index.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="加载静态内容">
+					<param name="Local" value="tutorial/static_pages.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="读取新闻条目">
+					<param name="Local" value="tutorial/news_section.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="创建新闻条目">
+					<param name="Local" value="tutorial/create_news_items.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="结束语">
+					<param name="Local" value="tutorial/conclusion.html">
+					</OBJECT>
+			</UL>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="常规主题">
+				<param name="Local" value="toc.html">
+				</OBJECT>
+
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CodeIgniter URL">
+					<param name="Local" value="general/urls.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="控制器">
+					<param name="Local" value="general/controllers.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="保留字">
+					<param name="Local" value="general/reserved_names.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="视图">
+					<param name="Local" value="general/views.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="模型">
+					<param name="Local" value="general/models.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="辅助函数">
+					<param name="Local" value="general/helpers.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="使用 CodeIgniter 类库">
+					<param name="Local" value="general/libraries.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="创建你自己的类库">
+					<param name="Local" value="general/creating_libraries.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="使用 CodeIgniter 适配器">
+					<param name="Local" value="general/drivers.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="创建适配器">
+					<param name="Local" value="general/creating_drivers.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="创建核心类">
+					<param name="Local" value="general/core_classes.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="钩子 - 扩展核心">
+					<param name="Local" value="general/hooks.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="自动装载资源">
+					<param name="Local" value="general/autoloader.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="公共函数">
+					<param name="Local" value="general/common_functions.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="URI 路由">
+					<param name="Local" value="general/routing.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="错误处理">
+					<param name="Local" value="general/errors.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="缓存">
+					<param name="Local" value="general/caching.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="调试应用程序">
+					<param name="Local" value="general/profiling.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="以 CLI 方式运行">
+					<param name="Local" value="general/cli.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="管理应用程序">
+					<param name="Local" value="general/managing_apps.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="处理多环境">
+					<param name="Local" value="general/environments.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="PHP 替代语法">
+					<param name="Local" value="general/alternative_php.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="安全">
+					<param name="Local" value="general/security.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="开发规范">
+					<param name="Local" value="general/styleguide.html">
+					</OBJECT>
+			</UL>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="附加资源">
+				<param name="Local" value="toc.html">
+				</OBJECT>
+
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="快速参考图">
+					<param name="Local" value="general/quick_reference.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="搜索引擎">
+					<param name="Local" value="http://search.codeigniter.org.cn/">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="中文社区">
+					<param name="Local" value="http://codeigniter.org.cn/forums/">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="英文社区">
+					<param name="Local" value="http://www.codeigniter.com/forums/">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="社区 Wiki">
+					<param name="Local" value="http://www.codeigniter.com/wiki/">
+					</OBJECT>
+			</UL>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="类库参考">
+				<param name="Local" value="toc.html">
+				</OBJECT>
+
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="基准测试类">
+					<param name="Local" value="libraries/benchmark.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="日历类">
+					<param name="Local" value="libraries/calendar.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="购物车类">
+					<param name="Local" value="libraries/cart.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="配置类">
+					<param name="Local" value="libraries/config.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Email 类">
+					<param name="Local" value="libraries/email.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="加密类">
+					<param name="Local" value="libraries/encryption.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="文件上传类">
+					<param name="Local" value="libraries/file_uploading.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="表单验证类">
+					<param name="Local" value="libraries/form_validation.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="FTP 类">
+					<param name="Local" value="libraries/ftp.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="HTML 表格类">
+					<param name="Local" value="libraries/table.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="图像处理类">
+					<param name="Local" value="libraries/image_lib.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="输入类">
+					<param name="Local" value="libraries/input.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Javascript 类">
+					<param name="Local" value="libraries/javascript.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="装载器类">
+					<param name="Local" value="libraries/loader.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="语言类">
+					<param name="Local" value="libraries/language.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="迁移类">
+					<param name="Local" value="libraries/migration.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="输出类">
+					<param name="Local" value="libraries/output.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="分页类">
+					<param name="Local" value="libraries/pagination.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="安全类">
+					<param name="Local" value="libraries/security.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Session 类">
+					<param name="Local" value="libraries/sessions.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Trackback 类">
+					<param name="Local" value="libraries/trackback.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="模板解析器类">
+					<param name="Local" value="libraries/parser.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="排版类">
+					<param name="Local" value="libraries/typography.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="单元测试类">
+					<param name="Local" value="libraries/unit_testing.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="URI 类">
+					<param name="Local" value="libraries/uri.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="User-Agent 类">
+					<param name="Local" value="libraries/user_agent.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="XML-RPC 类">
+					<param name="Local" value="libraries/xmlrpc.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Zip 编码类">
+					<param name="Local" value="libraries/zip.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="缓存适配器">
+					<param name="Local" value="drivers/caching.html">
+					</OBJECT>
+			</UL>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="适配器参考">
+				<param name="Local" value="toc.html">
+				</OBJECT>
+
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="缓存类">
+					<param name="Local" value="drivers/caching.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="数据库类">
+					<param name="Local" value="database/index.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Javascript 类">
+					<param name="Local" value="libraries/javascript.html">
+					</OBJECT>
+			</UL>
+
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="辅助函数参考">
+				<param name="Local" value="toc.html">
+				</OBJECT>
+
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="数组辅助函数">
+					<param name="Local" value="helpers/array_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CAPTCHA 辅助函数">
+					<param name="Local" value="helpers/captcha_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Cookie 辅助函数">
+					<param name="Local" value="helpers/cookie_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="日期辅助函数">
+					<param name="Local" value="helpers/date_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="目录辅助函数">
+					<param name="Local" value="helpers/directory_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="下载辅助函数">
+					<param name="Local" value="helpers/download_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Email 辅助函数">
+					<param name="Local" value="helpers/email_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="文件辅助函数">
+					<param name="Local" value="helpers/file_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="表单辅助函数">
+					<param name="Local" value="helpers/form_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="HTML 辅助函数">
+					<param name="Local" value="helpers/html_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Inflector 辅助函数">
+					<param name="Local" value="helpers/inflector_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="语言辅助函数">
+					<param name="Local" value="helpers/language_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="数字辅助函数">
+					<param name="Local" value="helpers/number_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="路径辅助函数">
+					<param name="Local" value="helpers/path_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="安全辅助函数">
+					<param name="Local" value="helpers/security_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="表情辅助函数">
+					<param name="Local" value="helpers/smiley_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="字符串辅助函数">
+					<param name="Local" value="helpers/string_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="文本辅助函数">
+					<param name="Local" value="helpers/text_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="排版辅助函数">
+					<param name="Local" value="helpers/typography_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="URL 辅助函数">
+					<param name="Local" value="helpers/url_helper.html">
+					</OBJECT>
+
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="XML 辅助函数">
+					<param name="Local" value="helpers/xml_helper.html">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="本帮助文档制作者博客">
+				<param name="Local" value="http://raoyc.com/fysoft">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="帮助文档CSS样式图片资源">
+				<param name="Local" value="res.html">
+				</OBJECT>
+		</UL>
+</UL>
+</BODY>
+</HTML>

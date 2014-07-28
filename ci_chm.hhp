@@ -1,0 +1,18 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=CodeIgniter用户指南.chm
+Contents file=ci_chm.hhc
+Default Font=微软雅黑,9,134
+Default topic=index.html
+Display compile progress=No
+Enhanced decompilation=Yes
+Index file=ci_chm.hhk
+Language=0x804 中文(中国)
+Title=CodeIgniter用户指南
+
+
+[FILES]
+index.html
+
+[INFOTYPES]
+
