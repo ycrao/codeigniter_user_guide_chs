@@ -7,7 +7,7 @@ CodeIgniter用户指南v2.2.0
 
 感谢CodeIgniter中国，感谢EllisLab，感谢所有中文文档翻译志愿者。
 
-## 脚本说明
+### 脚本说明
 
 ①使用Teleport离线下载CodeIgniter 中国帮助文档；
 
@@ -21,7 +21,7 @@ CodeIgniter用户指南v2.2.0
 ③CHM文档是使用微软的MS HTML Help Workshop工具来生成的，相关dll和exe位于bin目录下。ci_chm.exe是用于生成CHM帮助文档的脚本，同样也是使用Autohotkey编写。
 
 
-## 联系编者
+### 联系编者
 
 email: 
 
