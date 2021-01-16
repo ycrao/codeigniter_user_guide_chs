@@ -19,11 +19,3 @@ CodeIgniter用户指南v2.2.0
     请往replace_htmls.exe拖动。
 
 ③CHM文档是使用微软的MS HTML Help Workshop工具来生成的，相关dll和exe位于bin目录下。ci_chm.exe是用于生成CHM帮助文档的脚本，同样也是使用Autohotkey编写。
-
-
-### 联系编者
-
-email: 
-
-    ８３７４５４８７６＃ｑｑ＆ｃｏｍ 
-请将**#**换成**@**，**&**换成**.**。
